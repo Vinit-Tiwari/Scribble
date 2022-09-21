@@ -20,15 +20,16 @@ body{
     align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
+    gap: 0;
 }
 
 .sq{
-    width: 15px;
-    margin: 2px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-color: #1d1d1d;
     transition: 2s ease;
 }
 .sq:hover{
     transition-duration: 0s;
 }
+
